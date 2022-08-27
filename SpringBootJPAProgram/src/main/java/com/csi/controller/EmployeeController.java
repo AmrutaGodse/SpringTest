@@ -56,4 +56,11 @@ public class EmployeeController {
     {
         return "Welcome To Conganizant";
     }
+
+    //Created API 
+    @GetMapping("/hii")
+    public String sayHii()
+    {
+        return "Welcome To Conganizant Pune";
+    }
 }
