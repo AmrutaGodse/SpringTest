@@ -63,4 +63,14 @@ public class EmployeeController {
     {
         return "Welcome To Conganizant Pune";
     }
+
+
+    @GetMapping("/hello")
+    public ResponseEntity<String> sayHEllo()
+    {
+        return ResponseEntity.ok("Welcom bhai lok");
+    }
+
+
+
 }
